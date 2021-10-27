@@ -1,0 +1,53 @@
+.cardbody {
+    border:4px solid black;
+    padding: 10%;
+    margin: 1%;
+    background-color:white;
+    
+}
+button {
+    color: green;
+    background-color:white;
+}
+p{
+    color: blue;
+}
+s{
+    color: red;
+}
+.card{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+
+@media only screen and (min-width:481px) and (max-width:720px){
+    .cardbody {
+        border:4px solid black;
+        padding: 100%;
+        margin: 1%;
+        background-color:white;
+        width: 715px;
+        font: size 60px;
+    }
+    button {
+        color: green;
+        background-color:white;
+    }
+    p{
+        color: blue;
+    }
+    s{
+        color: red;
+    }
+    .card{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+
+        
+    }
+}
